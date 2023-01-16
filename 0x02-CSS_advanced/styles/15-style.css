@@ -36,10 +36,12 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
 
   /* ALIGN  */
   --section-header-align: center;
-  --section-title-margin: 0;
-
+ 
   /* TEXT-TRANSFORM  */
   --section-tagline-transform: uppercase;
+
+  /* MARGIN  */
+  --section-title-margin: 0;
 } 
 
 * {
