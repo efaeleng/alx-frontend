@@ -84,12 +84,18 @@ a:active {
   text-align: var(--section-header-align);
 }
 
+.section-title {
+  font-family: var(--font-family-title);
+  font-size: var(--font-size-xx-large);
+  font-weight: var(--font-weight-bold);
+  margin: var(--section-title-margin);
+  color: var(--section-title-color);
+
+}
+
 .section-tagline {
   color: var(--color-primary);
   font-family: var(--font-family-title);
   text-transform: var(--section-tagline-transform);
   font-weight: var(--font-weight-bold);
-  font-size: var(--font-size-xx-large);
-  margin: var(--section-title-margin);
-  color: var(--section-title-color);
 }
