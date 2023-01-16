@@ -30,10 +30,12 @@
 
   /* ALIGN  */
   --section-header-align: center;
-  --section-title-margin: 0;
-
+  
   /* TEXT-TRANSFORM  */
   --section-tagline-transform: uppercase;
+
+  /* MARGIN  */
+  --section-title-margin: 0;
 } 
 
 
