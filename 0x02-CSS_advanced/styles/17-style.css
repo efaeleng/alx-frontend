@@ -52,7 +52,8 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
   --footer-padding: 5rem 0 1rem;
 } 
 
-* {
+
+*, *:before, *:after {
   box-sizing: border-box;
 }
 
@@ -74,7 +75,7 @@ h1, h2, h3, h4, h4, h5, h6 {
   font-weight: var(--font-weight-bold);
 }
 
-a {
+a[href] {
   color: var(--text-color);
   text-decoration: none;
 }
