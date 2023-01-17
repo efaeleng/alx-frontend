@@ -43,6 +43,7 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
 
   /* MARGIN  */
   --section-title-margin: 0;
+  --section-tagline-margin: 0;
   
   /* PADDING  */
   --section-padding: 5rem 0;
@@ -140,6 +141,7 @@ a:active {
   font-family: var(--font-family-title);
   text-transform: var(--section-tagline-transform);
   font-weight: var(--font-weight-bold);
+  margin: var(--section-tagline-margin);
 }
 
 .container {
